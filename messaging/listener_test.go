@@ -1,14 +1,15 @@
 package zaws
 
 import (
-	"ammyy9908/go-common-libraries/messaging/mock"
 	"context"
 	"errors"
 	"testing"
 	"time"
 
-	"ammyy9908/go-common-libraries/gracefulshutdown"
-	"ammyy9908/go-common-libraries/logger"
+	"github.com/ammyy9908/go-common-libraries/messaging/mock"
+
+	"github.com/ammyy9908/go-common-libraries/gracefulshutdown"
+	"github.com/ammyy9908/go-common-libraries/logger"
 
 	"go.uber.org/zap"
 

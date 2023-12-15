@@ -1,11 +1,12 @@
 package zaws
 
 import (
-	"ammyy9908/go-common-libraries/messaging/mock"
 	"context"
 	"errors"
 	"testing"
 	"time"
+
+	"github.com/ammyy9908/go-common-libraries/messaging/mock"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/sns"

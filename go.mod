@@ -1,4 +1,4 @@
-module ammyy9908/go-common-libraries
+module github.com/ammyy9908/go-common-libraries
 
 go 1.19
 

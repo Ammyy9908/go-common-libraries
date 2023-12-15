@@ -1,8 +1,9 @@
 package config
 
 import (
-	ConfigCloud "ammyy9908/go-common-libraries/config/internal/providers"
 	"strings"
+
+	ConfigCloud "github.com/ammyy9908/go-common-libraries/config/internal/providers"
 
 	"github.com/spf13/viper"
 )

@@ -1,8 +1,9 @@
 package zaws
 
 import (
-	"ammyy9908/go-common-libraries/gracefulshutdown"
 	"context"
+
+	"github.com/ammyy9908/go-common-libraries/gracefulshutdown"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	awsConfig "github.com/aws/aws-sdk-go-v2/config"
